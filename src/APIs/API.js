@@ -1,6 +1,6 @@
 // export const ENDPOINT = "http://192.168.100.130:3000";
 // export const ENDPOINT = "https://accord-server.herokuapp.com";
-export const ENDPOINT = "https://arcane-earth-59480.herokuapp.com/";
+export const ENDPOINT = "https://arcane-earth-59480.herokuapp.com";
 export const onLogin = async (data) => {
 	return fetch(`${ENDPOINT}/api/users/login`, {
 		method: "POST",
